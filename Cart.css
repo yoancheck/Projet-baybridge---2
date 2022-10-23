@@ -1,0 +1,50 @@
+body {
+  }
+
+#column {
+    color: black;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    gap: 20px
+}
+
+#shopping {
+    width: 50%; 
+}
+
+#checkout {
+  width: 50%; 
+}
+
+#quantityCheckout {
+  color: red;
+}
+#myTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* #myTable tr:nth-child(even){background-color: #white;}
+   */
+  
+  #myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  #delete {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0px 5px;
+  }
